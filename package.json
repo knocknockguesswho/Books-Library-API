@@ -1,0 +1,35 @@
+{
+  "name": "books-library-api",
+  "version": "1.0.0",
+  "description": "RESTful API for books library application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knocknockguesswho/Arkademy.git"
+  },
+  "author": "Faris Ramadhan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/knocknockguesswho/Arkademy/issues"
+  },
+  "homepage": "https://github.com/knocknockguesswho/Arkademy#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "mysql": "^2.18.1",
+    "split-object": "^2.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

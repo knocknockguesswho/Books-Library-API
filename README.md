@@ -54,3 +54,20 @@ On request methods, for example on '**See All Books**' request on Admin endpoint
 
 
 ## File with .env extention should be ignored, you can make your own .env File.
+
+
+## Dependencies:
+**Bcrypt 5.0.0**
+**Body Parser 1.19.0**
+**CORS 2.8.5** *optional*
+**Dotenv 8.2.0**
+**Express 4.17.1**
+**Jsonwebtoken 8.5.1**
+**Morgan 1.10.0**
+**Multer 1.4.2**
+**MySQL 2.18.1**
+**Split-Object 2.1.1**
+
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/knocknockguesswho/Books-Library-API/License) file for details
