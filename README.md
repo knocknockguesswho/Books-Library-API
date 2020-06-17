@@ -83,6 +83,7 @@ On request methods, for example on '**See All Books**' request on Admin endpoint
 **Split-Object 2.1.1**
 
 >#### File with .env extention should be ignored, you can make your own .env File.
+>#### Add all packages by run *npm install*
 >#### Upgrading Role and Refresh Token on Next Update.
 
 
