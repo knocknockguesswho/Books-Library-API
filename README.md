@@ -62,7 +62,6 @@ On request methods, for example on '**See All Books**' request on Admin endpoint
 
 
 ## Dependencies
-## Dependencies:
 **Bcrypt 5.0.0**
 
 **Body Parser 1.19.0**
