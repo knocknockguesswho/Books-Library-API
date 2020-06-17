@@ -53,9 +53,6 @@ On request methods, for example on '**See All Books**' request on Admin endpoint
 ![](https://i.imgur.com/1nv0SeP.png)
 
 
-#### File with .env extention should be ignored, you can make your own .env File.
-
-
 ## Dependencies:
 **Bcrypt 5.0.0**
 
@@ -76,6 +73,8 @@ On request methods, for example on '**See All Books**' request on Admin endpoint
 **MySQL 2.18.1**
 
 **Split-Object 2.1.1**
+
+#### File with .env extention should be ignored, you can make your own .env File.
 
 
 ## License
