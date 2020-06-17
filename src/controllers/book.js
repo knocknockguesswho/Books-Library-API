@@ -113,16 +113,16 @@ module.exports = {
         const id = req.body.BOOKS_ID;
         try{
             const checkBookStatus = await bookModel.checkBookStatus(id);
-            console.log(checkAllbooks);
             const result = await bookModel.borrowSomeBooksModel(id);
             if(checkBookStatus[0].status == 2 ){
                 return helper.response(res, `fail`, `Sorry, books is not available.`)
             }
             if(req.body.BOOKS_ID == ''){
-                return helper.inputFieldResponse(res, `fail`, `Please input the BOOKS_ID field first!`, 500);
+                return helper.response(res, `fail`, `Please input the BOOKS_ID field first!`, 500);
             }
             return helper.response(res, `success`, `Congratulation! You can read the book!`, 200);
         } catch(error){
+            console.log(error)
             return helper.response(res, `fail`, `Internal Server Error`, 500);
         }
     },

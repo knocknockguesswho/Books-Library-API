@@ -50,24 +50,40 @@ On request methods, for example on '**See All Books**' request on Admin endpoint
 
 # Here is how do our App works
 
+#### Register & Logging in
 ![](https://i.imgur.com/1nv0SeP.png)
+---
+#### Use request methods as Admin
+![](https://i.imgur.com/2EzXtTd.png)
+---
+#### Use request methods as Member and Admin
+![](https://i.imgur.com/GnaxAjg.png)
+---
 
 
-## File with .env extention should be ignored, you can make your own .env File.
-
-
-## Dependencies:
+## Dependencies
 **Bcrypt 5.0.0**
+
 **Body Parser 1.19.0**
+
 **CORS 2.8.5** *optional*
+
 **Dotenv 8.2.0**
+
 **Express 4.17.1**
+
 **Jsonwebtoken 8.5.1**
+
 **Morgan 1.10.0**
+
 **Multer 1.4.2**
+
 **MySQL 2.18.1**
+
 **Split-Object 2.1.1**
 
+>#### File with .env extention should be ignored, you can make your own .env File.
+>#### Upgrading Role and Refresh Token on Next Update.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/knocknockguesswho/Books-Library-API/License) file for details
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/knocknockguesswho/Books-Library-API/blob/master/License) file for details

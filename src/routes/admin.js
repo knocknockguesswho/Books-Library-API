@@ -31,4 +31,7 @@ router.post('/post/author_table', authMiddleware.verifyJWT, authMiddleware.verif
 router.put('/:id', authMiddleware.verifyJWT, authMiddleware.verifyAdmin, upload.single('image'), bookController.updateBook);
 router.delete('/:id', bookController.deleteBook);
 
+
+router.put('/borrow/books', authMiddleware.verifyJWT, authMiddleware.verifyAdmin, bookController.borrowSomeBooks); //max: 2 books a week.
+router.put('/return/books', authMiddleware.verifyJWT, authMiddleware.verifyAdmin, bookController.returnBooks); //max: 2 weeks after borrowed.
 module.exports = router;

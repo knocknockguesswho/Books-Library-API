@@ -23,7 +23,7 @@ module.exports = {
             const decoded = jwt.verify(token, config.jwtSecretKey);
             req.decodedToken = decoded;
             if(req.decodedToken.role != 1){
-                return helper.response(res, `fail`, `You do not have any permissions!`, 403);
+                return helper.response(res, `fail`, `You do not have any permissions! Please register as admin first.`, 403);
             }
             next();
         } catch(error){
@@ -38,7 +38,6 @@ module.exports = {
             if(req.decodedToken.role != 2 && req.decodedToken.role != 1){
                 return helper.response(res, `fail`, `You do not have any permissions! Please register as member first.`, 403);
             }
-            console.log(decoded)
             next();
         } catch(error){
             return helper.response(res, `fail`, `Internal Server Error`, 500);
