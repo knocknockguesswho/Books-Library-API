@@ -58,7 +58,7 @@ On request methods, for example on '**See All Books**' request on Admin endpoint
 ---
 #### Use request methods as Member and Admin
 ![](https://i.imgur.com/GnaxAjg.png)
----
+
 
 
 ## Dependencies
