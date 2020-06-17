@@ -78,4 +78,4 @@ On request methods, for example on '**See All Books**' request on Admin endpoint
 
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/knocknockguesswho/Books-Library-API/License) file for details
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/knocknockguesswho/Books-Library-API/blob/master/License) file for details
