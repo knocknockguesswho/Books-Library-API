@@ -61,7 +61,11 @@ On request methods, for example on '**See All Books**' request on Admin endpoint
 ---
 
 
+<<<<<<< HEAD
 ## Dependencies
+=======
+## Dependencies:
+>>>>>>> 2dd8312c52f6c199a0a299e67dc212b877168d97
 **Bcrypt 5.0.0**
 
 **Body Parser 1.19.0**
@@ -83,7 +87,11 @@ On request methods, for example on '**See All Books**' request on Admin endpoint
 **Split-Object 2.1.1**
 
 >#### File with .env extention should be ignored, you can make your own .env File.
+<<<<<<< HEAD
 >#### Upgrading Role and Refresh Token on Next Update.
+=======
+
+>>>>>>> 2dd8312c52f6c199a0a299e67dc212b877168d97
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/knocknockguesswho/Books-Library-API/blob/master/License) file for details
